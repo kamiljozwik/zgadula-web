@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function Hero() {
   return (
     <div className="relative isolate px-6 pt-14 lg:px-8">
