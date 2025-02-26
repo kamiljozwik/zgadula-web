@@ -5,7 +5,7 @@ const navigation = {
     { name: "About", href: "#about" },
     { name: "Features", href: "#features" },
     { name: "How It Works", href: "#how-it-works" },
-    { name: "Privacy Policy", href: "#" },
+    { name: "Privacy Policy", href: "/privacy.pdf" },
   ],
   social: [
     {
