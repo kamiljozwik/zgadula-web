@@ -2,10 +2,10 @@ import React from "react";
 
 const navigation = {
   main: [
-    { name: "About", href: "#about" },
-    { name: "Features", href: "#features" },
+    { name: "About", href: "./#about" },
+    { name: "Features", href: "./#features" },
     { name: "How It Works", href: "#how-it-works" },
-    { name: "Privacy Policy", href: "/privacy.pdf" },
+    { name: "Privacy Policy", href: "/privacy-policy" },
   ],
   social: [
     {

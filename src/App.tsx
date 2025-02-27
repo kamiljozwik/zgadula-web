@@ -1,24 +1,18 @@
-import Navbar from "./components/layout/Navbar";
-import Hero from "./components/sections/Hero";
-import About from "./components/sections/About";
-import Features from "./components/sections/Features";
-import HowItWorks from "./components/sections/HowItWorks";
-import Contact from "./components/sections/Contact";
-import Footer from "./components/layout/Footer";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from "./components/layout/Layout";
+import Home from "./components/pages/Home";
+import PrivacyPolicy from "./components/pages/PrivacyPolicy";
 
 function App() {
   return (
-    <div className="bg-white">
-      <Navbar />
-      <main>
-        <Hero />
-        <About />
-        <Features />
-        <HowItWorks />
-        <Contact />
-      </main>
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <Layout>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        </Routes>
+      </Layout>
+    </BrowserRouter>
   );
 }
 

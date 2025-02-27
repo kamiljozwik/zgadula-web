@@ -3,10 +3,10 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import classNames from "classnames";
 
 const navigation = [
-  { name: "About", href: "#about" },
-  { name: "Features", href: "#features" },
-  { name: "How It Works", href: "#how-it-works" },
-  { name: "Contact", href: "#contact" },
+  { name: "About", href: "./#about" },
+  { name: "Features", href: "./#features" },
+  { name: "How It Works", href: "./#how-it-works" },
+  { name: "Contact", href: "./#contact" },
 ];
 
 export default function Navbar() {
@@ -19,7 +19,7 @@ export default function Navbar() {
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
-          <a href="#" className="-m-1.5 p-1.5">
+          <a href="/" className="-m-1.5 p-1.5">
             <span className="text-2xl font-bold text-indigo-600">Zgadula</span>
           </a>
         </div>
